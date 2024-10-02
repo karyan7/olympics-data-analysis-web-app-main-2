@@ -10,7 +10,7 @@ import plotly.figure_factory as ff
 df = pd.read_csv(
     'https://github.com/karyan7/olympics-data-analysis-web-app-main-2/blob/e23d5de581a8130812ba77e56d0e63a243d6aa4d/athlete_events.csv')
 region_df = pd.read_csv(
-    '')
+    'https://github.com/karyan7/olympics-data-analysis-web-app-main-2/blob/818d46d48a6ec2253076ba65a5e838748e5a7f30/noc_regions.csv')
 
 df = preprocessor.preprocess(df, region_df)
 
