@@ -8,7 +8,7 @@ import seaborn as sns
 import plotly.figure_factory as ff
 
 df = pd.read_csv(
-    '/Users/kumararyan/Desktop/olympics-data-analysis-web-app-main 2/athlete_events.csv')
+    'https://github.com/karyan7/olympics-data-analysis-web-app-main-2/blob/e23d5de581a8130812ba77e56d0e63a243d6aa4d/athlete_events.csv')
 region_df = pd.read_csv(
     '')
 
