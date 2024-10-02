@@ -16,7 +16,7 @@ df = preprocessor.preprocess(df, region_df)
 
 st.sidebar.title("Olympics Analysis")
 st.sidebar.image(
-    'https://e7.pngegg.com/pngimages/1020/402/png-clipart-2024-summer-olympics-brand-circle-area-olympic-rings-olympics-logo-text-sport.png')
+    'https://github.com/karyan7/olympics-data-analysis-web-app-main-2/blob/85933df7923818d7be22e01ea299ee65c4a010fc/png-clipart-2024-summer-olympics-brand-circle-area-olympic-rings-olympics-logo-text-sport.png')
 user_menu = st.sidebar.radio(
     'Select an Option',
     ('Medal Tally', 'Overall Analysis',
